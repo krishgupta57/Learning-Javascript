@@ -20,6 +20,8 @@ console.log(fun1());
 let fun2 = (a,b) => (a*b)
 console.log(fun2(4,5));
 
+//type 3
+
 let fun3 = name => name
 console.log(fun3("Krish"));
 
