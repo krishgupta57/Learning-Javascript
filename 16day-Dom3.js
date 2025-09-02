@@ -24,3 +24,11 @@ list.textContent = "Home"
 ulist.append(list)
 
 document.body.append(ulist)
+
+//img tag by js file
+let img = document.createElement('img')
+console.log(img);
+
+img.setAttribute("src","img/finance.png")
+
+document.body.append(img)
