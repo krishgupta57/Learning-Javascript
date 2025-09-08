@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div>
+            <h1 onmouseenter="mob()">Mobile</h1>
+            <h1 onmouseenter="laptop()">Laptop</h1>
+            <h1 onmouseenter="tablet()">Tablet</h1>
+            <h1 onmouseenter="watch()">Watch</h1>
+        </div>
+        <img src="img/phone.webp" height="300px" alt="" id="image">
+    </section>
+
+
+    <h1 align="center" id="welcome" onmouseenter="welcome()" onmouseleave="goodbye()">Welcome</h1>
+
+    <script src="20day-Dom7_Event3.js"></script>
+</body>
+</html>
