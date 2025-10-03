@@ -1,0 +1,11 @@
+{
+    "userdetails":[
+        {
+            "name":"Krish",
+            "city":"Bhopal",
+            "age":"22",
+            "contact":7898325,
+            "email":"krish@gmail.com"
+        }
+    ]
+}
